@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/form"
+        android:title="form"
+        android:icon="@drawable/form"/>
+    <item
+        android:id="@+id/about"
+        android:title="about"
+        android:icon="@drawable/aboutus"/>
+    <item
+        android:id="@+id/gallery"
+        android:title="gallery"
+        android:icon="@drawable/gallery"/>
+
+</menu>

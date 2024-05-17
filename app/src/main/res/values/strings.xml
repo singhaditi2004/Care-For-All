@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CFA</string>
+    <string name="client_id">565508837077-lbgcaen3bgc7iit4nfnst17rat77i80d.apps.googleusercontent.com</string>
+    <string name="default_web_client_id">565508837077-lbgcaen3bgc7iit4nfnst17rat77i80d.apps.googleusercontent.com</string>
+    <string name="title_activity_splash_screen">splashScreen</string>
+
+    <string name="loreum">"Join us in our mission to create a brighter future for children, empower women, and protect animals.Your contribution through crowdfunding is not just a donation—it's an investment in hope, opportunity, and compassion.Every penny you donate will directly support our projects and initiatives, making a tangible difference in the lives of those in need.
+
+        Imagine the smile on a child's face as they receive access to quality education, or the sense of empowerment a woman feels when she is provided with the resources to start her own business. Picture the relief of a rescued animal finding a safe and loving home. These are the real, lasting impacts your generosity can create.
+
+        Together, we can amplify our impact and reach even more people in need. Our projects are designed toprovide sustainable and long-term benefits, ensuring that your support continues to make a difference well into the future. From building schools and community centers to offering vocational training and healthcare services,every initiative we undertake is a step towards a better world.
+
+        Your generosity has the power to change lives and build a domore equitable and compassionate world. By donating, you are not only helping those in immediate need but also investingin the future well-being of entire communities. Your support helps break the cycle of poverty, provide essential services,and create opportunities for growth and self-sufficiency.
+
+        Join us in this noble cause. Be a part of our community of donors who believe in the power of collective action. With your help, we can achieve our goals and continue to expand our reach,touching the lives of countless individuals and animals in need. Together, we can create a legacy of kindness, hope, and positive change.
+
+        Donate today and be a part of something truly meaningful. Your contribution, no matter how big or small,will make a significant impact. Let's work together to build a future where every child has a chance to succeed, every womancan thrive, and every animal is treated with the compassion they deserve. Thank you for your support and commitment to makingthe world a better place for all."
+</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_sscreen">sscreen</string>
+    <string name="appname">Care For All</string>
+    <string name="counter_text">People who have joined us</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="volunteer_with_us">Volunteer with Us</string>
+    <string name="donate_for_good">Donate for good</string>
+    <string name="have_you_ever_volunteered">Have you ever volunteered?</string>
+    <string name="submit">Submit</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="enter_you_date_of_birth"> your DoB dd/mm/yy</string>
+    <string name="your_instagarm_handel">Your Insta Handel</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="your_name">Your name</string>
+    <string name="your_email_id">Your Email Id</string>
+    <string name="status">Status</string>
+    <string name="donate">Donate</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_your_upi_id">Enter your UPI Id</string>
+    <string name="any_note">Any note</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="donation">Donation</string>
+    <string name="enter_your_upi_">Enter your UPI id</string>
+    <string name="passwordhint">Password</string>
+    <string name="login">Login</string>
+    <string name="about_us">About Us</string>
+    <string name="username">Username</string>
+    <string name="gallery">Gallery</string>
+</resources>

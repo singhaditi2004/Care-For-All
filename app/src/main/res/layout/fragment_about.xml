@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@drawable/aboutusbg">
+
+    <!-- Use a vertical LinearLayout to contain all content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="33dp">
+
+        <!-- Title TextView -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/watermark"
+            android:layout_marginTop="-20dp"
+            />
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/about_us"
+            android:textSize="42sp"
+            android:textColor="#424242"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Scrollable content -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/amaranth"
+                    android:justificationMode="inter_word"
+                    android:text="@string/loreum"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="130dp"
+            android:src="@drawable/paperplane"
+            android:rotationY="180"
+            android:layout_gravity="end"
+            android:layout_marginRight="-70dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:src="@drawable/imggg"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20dp"/>
+</FrameLayout>

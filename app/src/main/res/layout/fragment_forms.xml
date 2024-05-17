@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forms"
+    android:background="@color/about_red">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forms"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="33dp"/>
+
+
+    <TextView
+        android:id="@+id/volunterr_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volunteer_with_us"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        />
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+
+    <TextView
+        android:id="@+id/donatetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/donate_for_good"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+    <ImageView
+        android:id="@+id/spark1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sparklingdiamond" />
+    <ImageView
+        android:id="@+id/spark2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="102dp"
+        android:src="@drawable/sparklingdiamond" />
+    <ImageView
+        android:id="@+id/spark3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="498dp"
+        android:src="@drawable/sparklingdiamond" />
+
+  <ImageView
+      android:id="@+id/donor"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      android:src="@drawable/donor"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="400dp"
+      />
+    <ImageView
+        android:id="@+id/volunt"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/volunteer"/>
+
+</FrameLayout>

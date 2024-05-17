@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".donorfragment"
+    android:orientation="vertical"
+    android:background="@drawable/formsbg">
+    <ImageView
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/watermark"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewdonor2"
+        android:layout_width="380dp"
+        android:layout_height="560dp"
+        android:layout_marginTop="-35dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        android:layout_gravity="center"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        android:layout_marginBottom="20dp">
+
+
+    <ImageView
+        android:id="@+id/donorphoto"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="106dp"
+        android:src="@drawable/baseline_person_241"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:background="@drawable/shadow_button_layer_list"
+         />
+
+    <ImageView
+        android:id="@+id/camera1"
+        android:layout_width="62dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginLeft="200dp"
+        app:srcCompat="@drawable/camera" />
+    <EditText
+        android:id="@+id/upi"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/enter_your_upi_"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insta"
+        app:layout_constraintVertical_bias="0.177" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:hint="@string/enter_amount"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insta"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <ImageView
+        android:id="@+id/qr"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/qr"
+        android:layout_marginTop="155dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/donate"
+
+        />
+
+        <Button
+            android:id="@+id/donate"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="445dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/magenta"
+            android:text="@string/donate"
+           />
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/paperplane"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-40dp"/>
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="-145dp"
+        android:src="@drawable/donorimg2"
+        android:layout_marginLeft="120dp"
+        android:layout_gravity="bottom"/>
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/formsbg"
+    tools:context=".donate"
+    >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/watermark"
+            android:layout_marginTop="-580dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewdonor"
+            android:layout_width="380dp"
+            android:layout_height="500dp"
+            android:layout_marginTop="25dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintHorizontal_bias="0.5">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/yourname"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/your_name"
+            android:inputType="text"
+            android:text=""
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:paddingStart="12dp"
+            android:drawableStart="@drawable/picon"
+           />
+
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/email"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:hint="@string/your_email_id"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.122" />
+
+
+        <EditText
+            android:id="@+id/phonenuber"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:gravity="center"
+            android:drawableStart="@drawable/phone"
+            android:hint="@string/phone_number"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:text=""
+           />
+
+        <EditText
+            android:id="@+id/insta"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:paddingStart="12dp"
+            android:drawableStart="@drawable/insta"
+            android:gravity="center"
+            android:hint="@string/your_instagarm_handel"
+            android:inputType="textUri"
+            />
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="12dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/baseline_calendar_month_24"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/enter_you_date_of_birth"
+            android:inputType="date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/insta"
+            app:layout_constraintVertical_bias="0.04" />
+
+
+        <Button
+            android:id="@+id/nextto"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="27dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/magenta"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bg"
+            app:layout_constraintVertical_bias="0.0" />
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/paperplane"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.054"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:src="@drawable/donorimg1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+        <FrameLayout
+            android:id="@+id/contain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

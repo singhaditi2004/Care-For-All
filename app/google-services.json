@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "565508837077",
+    "project_id": "care-for-all",
+    "storage_bucket": "care-for-all.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565508837077:android:ad3a2734e16447c419dc5c",
+        "android_client_info": {
+          "package_name": "com.example.google_forms_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565508837077-f04ejkb7653cu5rr90dbpgv18bg48iv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.google_forms_app",
+            "certificate_hash": "a133729d493f948d402f78a614709b84b453c0d1"
+          }
+        },
+        {
+          "client_id": "565508837077-lbgcaen3bgc7iit4nfnst17rat77i80d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB17VRk-pFG-b0YRHTk6c5HgvzHptjyxTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565508837077-lbgcaen3bgc7iit4nfnst17rat77i80d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
